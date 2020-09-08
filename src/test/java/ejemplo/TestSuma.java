@@ -1,14 +1,16 @@
 package ejemplo;
 
-import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
 
-class TestSuma
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class TestSuma
 {
 
 	@Test
-	void test()
+	public void test()
 	{
 		Jdb jdb= new Jdb();
 		assertEquals(jdb.suma(5, 5),10);
